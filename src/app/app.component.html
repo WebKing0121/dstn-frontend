@@ -1,43 +1,5 @@
 <div class="body-starsbg"></div>
-<nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between" [class]="scrollPosition >= 50 ? 'navbar1' : ''">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="sp-custom-navbar w-100 justify-content-between  align-items-start d-flex d-lg-none">
-        <button class="btn border-0 p-0 sp-mobile-nav-icon"><a href="#" class="nav-icon navbar-brand-nav-icon--mobile"></a></button>
-        <a class="btn sp-mobile-nav-btn--mobile" href="https://my.destcert.com">Dashboard</a>
-    </div>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#">
-          <span
-            class="nav-icon navbar-brand-nav-icon"
-            [class]="scrollPosition >= 50 ? 'navbar-brand-nav-icon1' : ''"></span></a>
-        <div class="sp-spacer d-md-none d-lg-none"></div>
-        <div class="d-flex align-items-center navbar-items">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" [class]="scrollPosition >= 50 ? 'nav-link1' : 'nav-link'" href="courses/courses.html">Courses</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" [class]="scrollPosition >= 50 ? 'nav-link1' : 'nav-link'" href="int-sys/int-sys.html">Intelligent System</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" [class]="scrollPosition >= 50 ? 'nav-link1' : 'nav-link'" href="our-team/our-team.html">Our Team</a>
-                </li>
-                <a class="btn sp-navbar-btn" href="https://my.destcert.com">Dashboard</a>
-            </ul>
-        </div>
-        <div class="sp-footer__divider d-lg-none d-m-none"></div>
-        <div class="sp-footer text-sm-center d-lg-none d-sm-block sp-footer">
-            <a href="https://www.facebook.com/Destination-Certification-242199760101700/" target="_blank" class="sp-footer__icon facebook-normal"></a>
-            <a href="https://www.instagram.com/destcert/" target="_blank" class="sp-footer__icon instagram-normal"></a>
-            <a href="https://ca.linkedin.com/company/destination-certification" target="_blank" class="sp-footer__icon linkedin-normal"></a>
-            <a href="https://twitter.com/destcert" target="_blank" class="sp-footer__icon twitter-normal"></a>
-            <a href="https://www.youtube.com/c/DestinationCertification" target="_blank" class="sp-footer__icon youtube-normal"></a>
-        </div>
-    </div>
-</nav>
-
+<app-header [scrollPosition]="scrollPosition"></app-header>
 <div class="sp-dsntsummit sp-item">
     <div class="sp-txt-con align-items-end col-sm-12 col-lg-6 col-md-6">
         <div class="pr-0 sp-res-width rellax" data-rellax-sm-speed="0" data-rellax-speed="2">
