@@ -1823,6 +1823,7 @@ textarea.form-control {
 
 .btn {
     display: inline-block;
+    height: 44px;
     font-weight: 400;
     color: #fff;
     text-align: center;
