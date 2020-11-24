@@ -10,7 +10,7 @@ body {
     height: 100vh;
 }
 .sp-item {
-    height: 100vh;
+    height: 770px;
     position: relative;
     background-image: url(../images/stars-bg.jpg);
     background-repeat: no-repeat;
@@ -52,7 +52,6 @@ body {
 }
 
 .sp-dsntsummit {
-    height: 100vh;
     margin-bottom: 0;
     background: #0b061d;
     z-index: 0;
@@ -103,14 +102,12 @@ body {
 }
 .sp-cissp-instructions {
     width: 100%;
-    height: 140vh;
     background-image: url(../images/torch-people.gif);
     background-position: center;
     background-size: cover;}
 
 .sp-cissp-leadership {
     margin: 0;
-    height: 110vh;
     position: relative;
     background-color: var(--mainBlack);
     letter-spacing: 0.5px;
@@ -162,7 +159,7 @@ body {
     height: 100%;
 }
 .sp-intelligent-system.sp-item {
-    height: auto;
+    height: 920px;
 }
 .sp-intelligent-system .img-con> * {
     margin: 0 auto;
@@ -184,8 +181,7 @@ body {
     background: url(../images/ai-anim.gif) no-repeat;
     width: 93px;
     height: 94px;
-    z-index: -1;
-    margin-bottom: 1px;
+    margin-bottom: -16px;
     background-size: cover; }
 .sp-intelligent-system .ai-connector-middle {
     background: url(../images/ai-connector-middle.svg) no-repeat;

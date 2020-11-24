@@ -1,10 +1,15 @@
 .sp-dsntsummit {
   .sp-res-width {
     width: 100%;
-    padding-left: 80px;
+    padding-left: 150px;
+
+    @media screen and (max-width: 1024px) {
+      padding-left: 80px;
+    }
 
     .sp-title {
       text-align: left;
+      font-size: 88px;
 
       @media screen and (max-width: 1024px) {
         font-size: 80px;
