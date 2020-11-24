@@ -3,7 +3,6 @@
         margin: 20px 3px !important;
     }
     .navbar-items .nav-link, .navbar-nav .sp-navbar-btn {
-        /* margin-bottom: 0 !important; */
     }
     .navbar-nav .navbar-items {
         flex: 1;
@@ -98,6 +97,9 @@
         height: 44px;
         line-height: 44px;
         font-size: 24px;
+    }
+    .navbar a.nav-link {
+        color: rgba(255, 255, 255, 0.95);
     }
     .navbar .sp-spacer {
         margin: 0 0 29px;
