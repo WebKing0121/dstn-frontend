@@ -26,9 +26,6 @@
   }
 
   .sp-title {
-    font-size: 48px;
-    font-weight: bold;
-    letter-spacing: 0.5px;
     line-height: 50px;
     max-width: 350px;
     text-align: left;
@@ -43,10 +40,14 @@
 .sp-cissp-leadership
 {
   .sp-res-width {
+    width: 100%;
+    padding-left: 80px;
   }
 
   .sp-title {
-    
+    max-width: 325px;
+    line-height: 50px;
+    text-align: left;
   }
 
   .sp-description {
