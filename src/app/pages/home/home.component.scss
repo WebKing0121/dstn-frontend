@@ -1,107 +1,364 @@
-.sp-dsntsummit {
-  .sp-res-width {
-    width: 100%;
-    padding-left: 150px;
+@media screen and (min-width: 320px) {
+  .sp-dsntsummit {
+    .sp-txt-con {
+      justify-content: flex-start;
+      padding-top: 150px;
+    }
 
-    @media screen and (max-width: 1024px) {
+    .sp-title {
+      font-size: 40px;
+      word-break: break-all;
+    }
+  }
+
+  .sp-cissp-instructions,
+  .sp-cissp-leadership,
+  .sp-intelligent-system,
+  .sp-certification {
+    .sp-title {
+      font-size: 36px;
+      line-height: 44px;
+    }
+  }
+
+  .sp-intelligent-system {
+    height: 1550px;
+    padding-top: 50px;
+
+    .img-con {
+      height: 950px;
+    }
+
+    .sp-txt-con {
+      height: auto;
+    }
+  }
+
+  .sp-certification {
+    padding-top: 117px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .sp-dsntsummit {
+
+    .sp-title {
+      font-size: 44px;
+      word-break: break-all;
+    }
+
+    .img-con {
+      
+      .img-trees {
+        top: 55%;
+      }
+
+      .img-people {
+        margin-top: -25rem;
+      }
+    }
+  }
+
+  .sp-cissp-instructions {
+
+    .sp-txt-con {
+      justify-content: flex-end;
+      padding-bottom: 64px;
+    }
+  }
+
+  .sp-cissp-leadership {
+
+    .sp-txt-con {
+      padding-left: 22px;
+      padding-right: 22px; 
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sp-dsntsummit {
+
+    .sp-res-width {
+      width: 100%;
       padding-left: 80px;
+
+      .sp-title {
+        text-align: left;
+        font-size: 60px;
+        line-height: 70px;
+      }
+
+      .sp-description {
+        max-width: 330px;
+      }
+    }
+  }
+
+  .sp-cissp-instructions {
+
+    .sp-res-width {
+      width: 100%;
+    }
+
+    .sp-txt-con {
+      justify-content: center;
+    }
+
+    .sp-title {
+      line-height: 50px;
+      max-width: 350px;
+      text-align: left;
+    }
+
+    .sp-description {
+      max-width: 350px;
+      text-align: left;
+    }
+  }
+
+  .sp-cissp-leadership,
+  .sp-certification {
+    background: none;
+
+    .bg {
+      height: 110vh;
+      width: 100vw;
+      position: absolute;
+      background: url(../../../assets/images/stars-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      scroll-snap-align: center;
+      opacity: 0.2;
+    }
+
+    .sp-txt-con {
+      text-align: center;
+      padding-left: 0;
+    }
+  }
+
+  .sp-cissp-leadership {
+
+    .sp-txt-con {
+      width: 45%;
+    }
+
+    .sp-img-con {
+      width: 55%;
+    }
+
+    .sp-res-width {
+      width: 100%;
+      padding-left: 150px;
+
+      @media screen and (max-width: 1024px) {
+        padding-left: 80px;
+      }
+    }
+
+    .sp-title {
+      max-width: 325px;
+    }
+
+    .sp-description {
+      width: 286px;
+      font-size: 15px;
+    }
+
+    .img-clouds {
+      height: 84vh;
+    }
+
+    .img-mountain--leadership {
+      top: 68px;
+    }
+
+    .img-people {
+      bottom: -68px;
+    }
+  }
+
+  .sp-intelligent-system {
+    height: 950px;
+    padding-top: 0;
+
+    .sp-res-width {
+      width: 530px;
+
+      @media screen and (max-width: 1024px) {
+        width: 370px;
+      }
     }
 
     .sp-title {
       text-align: left;
-      font-size: 88px;
+    }
+  }
 
-      @media screen and (max-width: 1024px) {
-        font-size: 80px;
-        font-weight: bold;
-        letter-spacing: 0.49px;
-        line-height: 76px;
+  .sp-certification {
+    padding-top: 0;
+
+    .sp-txt-con {
+      padding-top: 117px;
+      padding-left: 0;
+
+      .sp-description {
+        width: 335px;
+      }
+    }
+  }
+
+  .sp-cissp-instructions,
+  .sp-cissp-leadership,
+  .sp-intelligent-system,
+  .sp-certification {
+    .sp-title {
+      font-size: 42px;
+      line-height: 50px;
+    }
+    .sp-spacer {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+@media screen and (min-width: 800px) {
+  .sp-certification {
+    height: 770px;
+    flex-direction: row;
+    padding-top: 0;
+
+    .bg {
+      height: 770px;
+    }
+    
+    .sp-res-width {
+      width: 312px;
+    }
+
+    .sp-txt-con {
+      text-align: left;
+      padding-left: 80px;
+      padding-top: 0;
+
+      .sp-description {
+        width: 335px;
       }
     }
 
-    .sp-description {
-      max-width: 330px;
+    .img-people-certification {
+      margin-top: 100px;
     }
   }
 }
+@media screen and (min-width: 1024px) {
+  .sp-dsntsummit {
 
-.sp-cissp-instructions {
-  .sp-res-width {
-    width: 100%;
-  }
+    .sp-res-width {
 
-  .sp-title {
-    line-height: 50px;
-    max-width: 350px;
-    text-align: left;
-  }
-
-  .sp-description {
-    max-width: 350px;
-    text-align: left;
-  }
-}
-
-.sp-cissp-leadership {
-  background: none;
-
-  .bg {
-    height: 110vh;
-    width: 100vw;
-    position: absolute;
-    background: url(../../../assets/images/stars-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    scroll-snap-align: center;
-    opacity: 0.2;
-  }
-
-  .sp-txt-con {
-    width: 45%;
-  }
-
-  .sp-img-con {
-    width: 55%;
-  }
-
-  .sp-res-width {
-    width: 100%;
-    padding-left: 150px;
-
-    @media screen and (max-width: 1024px) {
-      padding-left: 80px;
+      .sp-title {
+        text-align: left;
+        font-size: 80px;
+        line-height: 76px;
+      }
     }
   }
 
-  .sp-title {
-    max-width: 325px;
-    line-height: 50px;
-    text-align: left;
-  }
-
-  .sp-description {
-    width: 329px;
-  }
-}
-
-.sp-intelligent-system {
-
-  .sp-res-width {
-    width: 530px;
-  }
-}
-
-.sp-certification {
-
-  .sp-txt-con {
-    padding-left: 150px;
-
-    @media screen and (max-width: 1024px) {
-      padding-left: 80px;
+  .sp-cissp-instructions,
+  .sp-cissp-leadership,
+  .sp-intelligent-system,
+  .sp-certification {
+    .sp-title {
+      font-size: 48px;
+      line-height: 50px;
     }
+  }
+
+  .sp-cissp-leadership {
 
     .sp-description {
-      width: 335px;
+      width: 340px;
+      font-size: 16px;
+    }
+  }
+
+  .sp-certification {
+    .sp-res-width {
+      width: 350px;
+    }
+    
+    .img-people-certification {
+      margin-top: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1366px) {
+
+  .sp-dsntsummit {
+    height: 100vh;
+
+    .sp-txt-con {
+      justify-content: flex-start;
+      padding-left: 150px;
+    }
+
+    .img-con .img-people {
+      margin-top: -31rem;
+    }
+  }
+
+  .sp-certification {
+
+    .sp-txt-con {
+      padding-left: 150px;
+    }
+
+    .sp-res-width {
+      width: 410px;
+    }
+    
+    .img-people-certification {
+      margin-top: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1600px) {
+
+  .sp-dsntsummit {
+
+    .img-con .img-people {
+      margin-top: -38rem;
+    }
+  }
+
+  .sp-cissp-instructions,
+  .sp-cissp-leadership,
+  .sp-intelligent-system,
+  .sp-certification {
+    height: 100vh;
+
+    .sp-title {
+      max-width: 500px;
+      font-size: 60px;
+      line-height: 65px;
+    }
+  }
+
+  .sp-intelligent-system .sp-res-width {
+    width: 630px;
+  }
+
+  .sp-certification {
+
+    .sp-res-width {
+      width: 510px;
+    }
+    
+    .img-people-certification {
+      margin-top: 0;
     }
   }
 }

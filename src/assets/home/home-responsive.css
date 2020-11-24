@@ -1,8 +1,20 @@
-@media (min-width: 320px) and (max-width: 1200px) {
-    .rellax { transform: translate3d(0,0,0) !important; }
+@media (min-width: 768px) {
+    .sp-txt-con {
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
     .sp-txt-con {
         text-align: center;
     }
+    .sp-spacer {
+        margin: 12px auto 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+    .rellax { transform: translate3d(0,0,0) !important; }
     .sp-title {
         font-size: 36px;
     }
@@ -11,9 +23,6 @@
     }
     .sp-title--bold {
         font-size: 77px;
-    }
-    .sp-spacer {
-        margin: 12px auto 20px;
     }
     .sp-dsntsummit .sp-title {
         font-size: 60px;
@@ -57,7 +66,7 @@
         padding-bottom: 4rem;
     }
     .sp-cissp-leadership .img-people {
-        background-position: 100% 9rem;
+        background-position: 100% 13rem;
         bottom: 0;
         top: unset;
     }
@@ -119,7 +128,7 @@
     .sp-certification {
         flex-direction: column;
         height: auto;
-        padding-top: 80px;
+        /* padding-top: 80px; */
     }
     .sp-certification .img-people-certification {
         background-size: cover;
@@ -184,12 +193,6 @@
         top: unset;
         bottom: 0;
     }
-    .sp-txt-con {
-        text-align: left;
-    }
-    .sp-spacer {
-        margin-left: 0;
-    }
     .sp-intelligent-system {
         flex-direction: unset;
     }
@@ -209,13 +212,20 @@
     }
     .sp-title--bold {
         font-size: 94px; }
-    .sp-cissp-leadership .img-people {
-        height: 100vh;
-    }
 }
 @media (min-width: 765px) and (max-width: 1024px) {
     .sp-cissp-leadership .sp-txt-con {
         order: unset;
+    }
+}
+@media (min-width: 320px) {
+    .sp-intelligent-system .ai-bg--gif {
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 768px) {
+    .sp-intelligent-system .ai-bg--gif {
+        margin-bottom: -10px;
     }
 }
 @media (min-width: 800px) and (max-width: 1366px) {
@@ -230,15 +240,22 @@
         padding-right: 45px !important;
         padding-left: 0;
     }
-    .sp-img-res-width {
-        width: 380px;
-        margin-right: 0 !important;
-    }
     .sp-intelligent-system .sp-int__third-sec, .sp-intelligent-system .sp-int__second-sec {
         width: 85%;
     }
     .sp-cissp-instructions .sp-txt-con {
         justify-content: center;
+    }
+}
+@media (min-width: 1024px) {
+    .sp-testm-footer .sp-testm .dc-carousel__item {
+        margin: 0 10px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 20px;
+        width: 320px;
     }
 }
 @media (min-width: 1200px) {
