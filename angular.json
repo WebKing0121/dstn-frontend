@@ -30,7 +30,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/rellax/rellax.min.js"
+            ]
           },
           "configurations": {
             "production": {

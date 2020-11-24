@@ -19,13 +19,13 @@
 }
 .navbar a.nav-link {
     padding: 5px 0 !important;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.95);
     border-bottom: 2px solid transparent;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.9);
     transition: .5s ease-in-out;
     border-color: rgba(255,255,255,.25);
+    color: #E56F9F;
 }
 .navbar-dark .navbar-nav .nav-item.active .nav-link {
     color: var(--pink);
