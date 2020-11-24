@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>course-tick-active</title>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#B25CFF" offset="0%"></stop>
+            <stop stop-color="#A300FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TICK-1-Copy-3">
+            <g id="Group-12" stroke-width="1" fill-rule="evenodd" fill="url(#linearGradient-1)">
+                <g id="Group-9">
+                    <circle id="Oval" cx="11.5" cy="11.5" r="11.5"></circle>
+                    <circle id="Oval-Copy" cx="11.5" cy="11.5" r="11.5"></circle>
+                </g>
+            </g>
+            <path d="M7.37850807,10.8057127 C7.0052729,10.4379998 6.40461585,10.4424766 6.036903,10.8157117 C5.66919015,11.1889469 5.67366686,11.7896039 6.04690203,12.1573168 L9.39830767,15.426664 C9.76864916,15.791526 10.3636587,15.7903571 10.7325638,15.4240428 L16.4799617,9.43552643 C16.8517492,9.06634996 16.8538659,8.46567996 16.4846894,8.09389243 C16.1155129,7.7221049 15.5148429,7.71998822 15.1430554,8.08916469 L10.0614893,13.4165254 L7.37850807,10.8057127 Z" id="Path-4" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

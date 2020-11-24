@@ -1,0 +1,319 @@
+@media (min-width: 320px) and (max-width: 1200px) {
+    .rellax { transform: translate3d(0,0,0) !important; }
+    .sp-txt-con {
+        text-align: center;
+    }
+    .sp-title {
+        font-size: 36px;
+    }
+    .sp-subtitle {
+        font-size: 18px;
+    }
+    .sp-title--bold {
+        font-size: 77px;
+    }
+    .sp-spacer {
+        margin: 12px auto 20px;
+    }
+    .sp-dsntsummit .sp-title {
+        font-size: 60px;
+    }
+    .sp-cissp-leadership .img-people {
+        bottom: 0;
+    }
+    .sp-cissp-leadership .img-mountain--leadership {
+        background-position: top;
+        background-size: cover;
+    }
+    .sp-video {
+        background-size: cover;
+        background-position: center;
+        height: 76vw;
+    }
+}
+@media (min-width: 320px) and (max-width: 800px) {
+    .sp-dsntsummit .img-mountain {
+        background-position: 75%;
+        height: 100%;
+    }
+    .sp-dsntsummit .img-trees {
+        background-size: cover;
+        background-position: center;
+    }
+    .sp-dsntsummit .img-people {
+        margin-top: -15rem;
+    }
+    .sp-dsntsummit .sp-gradient {
+        background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, rgba(38, 0, 62, 0.11) 0%, #130027e6 100%);
+    }
+    .sp-testm-footer .sp-testm .dc-carousel__item {
+        width: 300px ;
+        margin: 0 10px ;
+        padding: 0 30px ;
+    }
+    .sp-cissp-leadership .sp-txt-con {
+        order: 1;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .sp-cissp-leadership .img-people {
+        background-position: 100% 9rem;
+        bottom: 0;
+        top: unset;
+    }
+    .sp-cissp-leadership .img-mountain {
+        top: 2rem;
+        height: 29vh;
+    }
+    .sp-cissp-leadership .img-clouds {
+        background-position: 100% 0;
+        background-size: cover;
+        height: 68vh;
+    }
+    .sp-cissp-leadership {
+        width: 100%;
+        height: auto;
+    }
+    .sp-video {
+        background-size: cover;
+        background-position: center;
+    }
+    /*Intelligent systems*/
+    .sp-intelligent-system {
+        flex-direction: column;
+        padding: 0 25px;
+    }
+    .sp-intelligent-system .sp-int__item {
+        width: 85px;
+        font-size: 14px;
+    }
+    .sp-intelligent-system .sp-int__first-sec {
+        height: 120px;
+    }
+    .sp-intelligent-system .sp-int__first-sec,
+    .sp-intelligent-system .sp-int__second-sec,
+    .sp-intelligent-system .sp-int__third-sec,
+    .sp-intelligent-system .sp-int__last-sec
+    {
+        padding: 0;
+    }
+    .sp-intelligent-system .ai-connector-top {
+        background-image: url(../images/mobile/ai-connector-top-mobile.svg);
+        height: 80px;
+
+    }
+    .sp-intelligent-system .ai-connector-middle {
+        background-image: url(../images/mobile/ai-connector-middle-mobile.svg);
+        background-position: center;
+
+    }
+    .sp-intelligent-system .ai-connector-bottom {
+        background-image: url(../images/mobile/ai-connector-bottom-mobile.svg);
+        height: 80px;
+    }
+    .sp-intelligent-system .sp-txt-con {
+        margin-bottom: 5rem;
+    }
+
+    /*Certification*/
+    .sp-certification {
+        flex-direction: column;
+        height: auto;
+        padding-top: 80px;
+    }
+    .sp-certification .img-people-certification {
+        background-size: cover;
+        background-position: 35%;
+        height: 57vh;
+    }
+    .sp-certification .sp-txt-con {
+        margin: 2rem 0;
+    }
+    /*Testimonials*/
+    .sp-testm-footer .sp-testm {
+        position: relative;
+        padding: 80px 25px 25px;
+    }
+    .sp-testm-footer .sp-testm__title {
+        font-size: 36px;
+        font-weight: bold;
+        padding: 0 30px 30px;
+        text-align: center;
+        line-height: 44px;
+    }
+    .sp-testm-footer .sp-testm .quote-icon {
+        left: 30px;
+        top: 0;
+    }
+}
+@media (max-width: 576px) {
+    .sp-dsntsummit .img-people {
+        background-position: -6rem;
+    }
+    .sp-testm-footer .sp-testm .dc-carousel__item {
+        margin: 0;
+        width: 270px;
+    }
+    .sp-cissp-instructions .sp-txt-con {
+        justify-content: flex-end;
+        margin-top: 13rem;
+    }
+    .sp-cissp-instructions {
+        margin-bottom: 13rem;
+        background-size: cover;
+        background-position: -13rem -7rem;
+    }
+    .sp-res-width {
+        width: 100%;
+    }
+    .sp-txt-con .sp-res-width.pl-0 {
+        padding-left: 0 !important;
+        padding-right: 0;
+    }
+    .sp-txt-con .sp-res-width.pr-0 {
+        padding-right: 0 !important;
+        padding-left: 0;
+    }
+    .sp-img-res-width {
+        width: 100%;
+        margin-right: 0 !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 1024px) {
+    .sp-cissp-leadership .img-people {
+        top: unset;
+        bottom: 0;
+    }
+    .sp-txt-con {
+        text-align: left;
+    }
+    .sp-spacer {
+        margin-left: 0;
+    }
+    .sp-intelligent-system {
+        flex-direction: unset;
+    }
+    .sp-testm-footer .sp-spacer {
+        margin: 1rem auto;
+    }
+}
+
+/*not mobile screens*/
+@media (min-width: 765px) {
+    .sp-dsntsummit .sp-title {
+        font-size: 88px;
+        line-height: 76px;
+    }
+    .sp-title {
+        font-size: 48px;
+    }
+    .sp-title--bold {
+        font-size: 94px; }
+    .sp-cissp-leadership .img-people {
+        height: 100vh;
+    }
+}
+@media (min-width: 765px) and (max-width: 1024px) {
+    .sp-cissp-leadership .sp-txt-con {
+        order: unset;
+    }
+}
+@media (min-width: 800px) and (max-width: 1366px) {
+    .sp-res-width {
+        width: 300px;
+    }
+    .sp-txt-con .sp-res-width.pl-0 {
+        padding-left: 45px !important;
+        padding-right: 0;
+    }
+    .sp-txt-con .sp-res-width.pr-0 {
+        padding-right: 45px !important;
+        padding-left: 0;
+    }
+    .sp-img-res-width {
+        width: 380px;
+        margin-right: 0 !important;
+    }
+    .sp-intelligent-system .sp-int__third-sec, .sp-intelligent-system .sp-int__second-sec {
+        width: 85%;
+    }
+    .sp-cissp-instructions .sp-txt-con {
+        justify-content: center;
+    }
+}
+@media (min-width: 1200px) {
+    .sp-res-width {
+        width: 500px;
+    }
+    .sp-txt-con .sp-res-width.pl-0 {
+        padding-left: 155px !important;
+        padding-right: 0;
+    }
+    .sp-txt-con .sp-res-width.pr-0 {
+        padding-right: 155px !important;
+        padding-left: 0;
+    }
+    .sp-certification .sp-txt-con .sp-res-width.pr-0 {
+        padding-right: 80px !important;
+        padding-left: 0;
+        width: 400px;
+    }
+    .sp-img-res-width {
+        width: 560px;
+        margin-right: 0 !important;
+    }
+}
+
+@media (min-width: 1366px) {
+
+    .sp-certification .sp-txt-con.col-lg-5 .sp-res-width {
+        padding-right: 100px !important;
+        width: 450px;
+    }
+    .sp-cissp-leadership .img-mountain--leadership {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .sp-cissp-leadership .img-people {
+        height: 100%;
+        bottom: -50%;
+    }
+}
+
+@media (min-width: 2000px) {
+    .sp-title {
+        font-size: 50px;
+    }
+    .sp-subtitle {
+        font-size: 38px;
+    }
+    .sp-title--bold {
+        font-size: 100px;
+    }
+    .sp-description {
+        font-size: 28px;
+    }
+    .sp-res-width {
+        width: 70%;
+    }
+    .sp-img-res-width {
+        width: 70%;
+        margin-right: 0 !important;
+    }
+    .img-con .img-mountain {
+        height: 70%;
+    }
+    .sp-cissp-leadership .img-people {
+        height: 100%;
+        bottom: -50%;
+    }
+    .sp-cissp-leadership .img-mountain--leadership {
+        background-position: center;
+        background-size: cover;
+    }
+    .sp-intelligent-system .ai-connector-top,
+    .sp-intelligent-system .ai-connector-bottom {
+        height: 180px;
+    }
+}

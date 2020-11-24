@@ -1,0 +1,57 @@
+.popover:not(.show), .popover .arrow {
+    display: none;
+}
+.popover-body {
+    padding: 0;
+}
+.popover {
+    text-align: center;
+    flex-direction: column;
+    max-width: none;
+    width: 280px;
+    min-height: 200px;
+    padding: 30px 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px 0px rgba(93,43,139,.4);
+    border: solid 1px #3c3569;
+    background-image: linear-gradient(to bottom, #352559, #21224b);
+}
+.flyout {
+    position: relative;
+}
+.flyout .flyout-title {
+    color: var(--light-pink);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.flyout .flyout-desc {
+    color: rgba(255,255,255,.7);
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.flyout .flyout-btn {
+    margin-top: 25px;
+    padding: 10px 25px;
+    font-size: 14px;
+}
+.flyout-close {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    width: 24px;
+    height: 24px;
+    background: url(../images/courses/flyout-close.svg) no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.flyout-close:hover {
+    background-color: #282450;
+    border-radius: 100%;
+}
+.flyout-anchor {
+    cursor: pointer;
+    outline: none;
+}

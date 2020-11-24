@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>instagram-hover</title>
+    <defs>
+        <circle id="path-1" cx="24" cy="24" r="24"></circle>
+        <linearGradient x1="55.6082589%" y1="-41.1100618%" x2="55.6082589%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#E56F9F" offset="0%"></stop>
+            <stop stop-color="#EA635F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-274.000000, -95.000000)">
+            <g id="instagram-hover" transform="translate(274.000000, 95.000000)">
+                <g id="Linkedin">
+                    <g id="Oval">
+                        <use fill-opacity="0.08" fill="#8279DE" fill-rule="evenodd" style="mix-blend-mode: multiply;" xlink:href="#path-1"></use>
+                        <circle stroke="#E56F9F" stroke-width="1" stroke-linejoin="square" cx="24" cy="24" r="23.5"></circle>
+                    </g>
+                    <path d="M27.3522813,16 C29.9150312,16 32,18.0849688 32,20.64775 L32,20.64775 L32,27.3522813 C32,29.9150312 29.9150312,32 27.35225,32 L27.35225,32 L20.64775,32 C18.0849688,32 16,29.9150312 16,27.35225 L16,27.35225 L16,20.64775 C16,18.0849688 18.0849688,16 20.64775,16 L20.64775,16 Z M24,19.6875 C21.6220625,19.6875 19.6875,21.6220625 19.6875,24 C19.6875,26.3779375 21.6220625,28.3125 24,28.3125 C26.3779375,28.3125 28.3125,26.3779375 28.3125,24 C28.3125,21.6220625 26.3779375,19.6875 24,19.6875 Z M24.005,21.09 C25.6123251,21.09 26.92,22.3976749 26.92,24.005 C26.92,25.6123251 25.6123251,26.92 24.005,26.92 C22.3976749,26.92 21.09,25.6123251 21.09,24.005 C21.09,22.3976749 22.3976749,21.09 24.005,21.09 Z M28.811319,18.5617733 C28.3971055,18.5617733 28.061319,18.8975597 28.061319,19.3117733 C28.061319,19.7259868 28.3971055,20.0617733 28.811319,20.0617733 C29.2255326,20.0617733 29.561319,19.7259868 29.561319,19.3117733 C29.561319,18.8975597 29.2255326,18.5617733 28.811319,18.5617733 Z" id="Combined-Shape-Copy-17" fill="url(#linearGradient-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

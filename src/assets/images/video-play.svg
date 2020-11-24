@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#EE844F" offset="0%"></stop>
+            <stop stop-color="#EE4B80" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Web" transform="translate(-647.000000, -2659.000000)">
+            <g id="Group" transform="translate(647.000000, 2659.000000)">
+                <circle id="Oval-Copy" fill="#FFFFFF" opacity="0.400000006" cx="36" cy="36" r="36"></circle>
+                <circle id="Oval" fill="url(#linearGradient-1)" cx="36" cy="36" r="31.2"></circle>
+                <path d="M31.9301017,23.7436924 L47.416684,34.3498878 C48.3280158,34.9740257 48.5608325,36.2187699 47.9366945,37.1301017 C47.7969899,37.3340906 47.620673,37.5104076 47.416684,37.6501122 L31.9301017,48.2563076 C31.0187699,48.8804455 29.7740257,48.6476288 29.1498878,47.736297 C28.9219663,47.4034985 28.8,47.0095601 28.8,46.6061954 L28.8,25.3938046 C28.8,24.2892351 29.6954305,23.3938046 30.8,23.3938046 C31.2033647,23.3938046 31.5973032,23.5157709 31.9301017,23.7436924 Z" id="Stroke-1" fill="#FFFFFF" opacity="0.900000036"></path>
+            </g>
+        </g>
+    </g>
+</svg>

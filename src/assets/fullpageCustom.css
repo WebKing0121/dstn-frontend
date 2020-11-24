@@ -1,0 +1,87 @@
+/*dots styling*/
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
+    background: linear-gradient(to right, var(--orange) 0%, var(--pink) 100%);
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background-color: #625598;
+}
+/*dots styling end*/
+
+.fp-tableCell {
+    position: relative;
+}
+.fp-slidesNav.fp-bottom {
+    text-align: center;
+}
+#fp-nav ul li .fp-tooltip {
+    color: var(--purple);
+    background: linear-gradient(45deg, rgba(33, 34, 75, 0.97), rgba(53, 37, 89, .97));
+    /*padding: 5px 10px;*/
+    border-radius: 4px;
+    top: -10px;
+    right: 31px !important;
+}
+@media (max-width: 768px) {
+    .fp-tableCell {
+        /*vertical-align: bottom;*/
+    }
+    #fp-nav.fp-right {
+        right: 0;
+    }
+    #fp-nav ul li .fp-tooltip {
+        display: none;
+    }
+    .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev  {
+        display: none;
+    }
+}
+/*not mobile*/
+@media (min-width: 768px) {
+    #fp-nav ul li a:hover + .fp-tooltip {
+        padding: 5px 10px;
+        border: 1px solid #312b5a;
+    }
+    /*#fp-nav ul li a:hover + .fp-tooltip:before {*/
+    /*    content: '';*/
+    /*    display: block;*/
+    /*    border-width: 7px;*/
+    /*    border-style: solid;*/
+    /*    position: absolute;*/
+    /*    right: 17px;*/
+    /*    border-bottom-color: #27212100;*/
+    /*    border-right-color: #adadad00;*/
+    /*    border-left-color: rgba(53, 37, 89, .97);*/
+    /*    border-top-color: transparent;*/
+    /*    top: -1px;*/
+    /*}*/
+    .fp-controlArrow.fp-next {
+        right: 45px;
+        border-width: 24px 0 24px 24px;
+        border-color: transparent transparent transparent #ee5379;
+    }
+    .fp-controlArrow.fp-prev {
+        left: 45px;
+        border-width: 24px 24px 24px 0;
+        border-color: transparent #ee5379 transparent transparent;
+    }
+}
+
+@media (min-width: 2000px){
+    #fp-nav ul li, .fp-slidesNav ul li {
+        width: 22px;
+        height: 25px;
+    }
+    #fp-nav ul li a span, .fp-slidesNav ul li a span {
+        width: 8px;
+        height: 8px;
+    }
+    #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
+        width: 18px;
+        height: 18px;
+    }
+    #fp-nav ul li .fp-tooltip.fp-right {
+        right: 30px;
+        font-size: 22px;
+        max-width: fit-content;
+    }
+}

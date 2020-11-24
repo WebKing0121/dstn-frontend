@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>accordian-close</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="accordian-close">
+            <g id="Oval" opacity="0.699999988">
+                <g id="path-1-link" fill="" fill-rule="nonzero">
+                    <circle id="path-1" cx="14" cy="14" r="14"></circle>
+                </g>
+                <g id="path-1-link" style="mix-blend-mode: multiply;" fill="#594E87" fill-opacity="0.5">
+                    <circle id="path-1" cx="14" cy="14" r="14"></circle>
+                </g>
+                <circle stroke-opacity="0.8" stroke="#594E87" cx="14" cy="14" r="13.5"></circle>
+            </g>
+            <path d="M17.3060397,9.16318335 C17.5236175,8.94560554 17.8763809,8.94560554 18.0939587,9.16318335 C18.2897787,9.35900339 18.3093607,9.66432371 18.1527047,9.8820438 L18.0939587,9.95110234 L13.3448563,14.7 L18.0939587,19.4488977 C18.2897787,19.6447177 18.3093607,19.950038 18.1527047,20.1677581 L18.0939587,20.2368166 C17.8981387,20.4326367 17.5928183,20.4522187 17.3750982,20.2955626 L17.3060397,20.2368166 L12.1631826,15.0939595 C11.9673625,14.8981395 11.9477805,14.5928191 12.1044366,14.375099 L12.1631826,14.3060405 L17.3060397,9.16318335 Z" id="Combined-Shape" fill="#9187CA" fill-rule="nonzero" transform="translate(15.128571, 14.700000) rotate(-180.000000) translate(-15.128571, -14.700000) "></path>
+        </g>
+    </g>
+</svg>
