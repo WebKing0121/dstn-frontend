@@ -37,11 +37,39 @@
   }
 }
 
-.sp-cissp-leadership
-{
+.sp-cissp-leadership {
+  background: none;
+
+  .bg {
+    height: 110vh;
+    width: 100vw;
+    position: absolute;
+    background: url(../../../assets/images/stars-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-snap-align: center;
+    opacity: 0.2;
+  }
+
+  .sp-txt-con {
+    width: 45%;
+  }
+
+  .sp-img-con {
+    width: 55%;
+  }
+
   .sp-res-width {
     width: 100%;
     padding-left: 80px;
+  }
+
+  .sp-mark {
+    color: #D7779B;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 25px;
   }
 
   .sp-title {
@@ -51,5 +79,6 @@
   }
 
   .sp-description {
+    width: 329px;
   }
 }
