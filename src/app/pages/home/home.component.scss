@@ -142,6 +142,7 @@
 
     .sp-txt-con {
       width: 45%;
+      text-align: left;
     }
 
     .sp-img-con {
@@ -198,10 +199,12 @@
 
   .sp-certification {
     padding-top: 0;
+    flex-direction: row;
 
     .sp-txt-con {
-      padding-top: 117px;
       padding-left: 0;
+      text-align: left;
+      padding-left: 80px;
 
       .sp-description {
         width: 335px;
@@ -248,7 +251,7 @@
     }
 
     .img-people-certification {
-      margin-top: 100px;
+      height: 770px;
     }
   }
 }
@@ -284,12 +287,12 @@
   }
 
   .sp-certification {
+
     .sp-res-width {
       width: 350px;
     }
     
     .img-people-certification {
-      margin-top: 0;
     }
   }
 }
@@ -320,7 +323,6 @@
     }
     
     .img-people-certification {
-      margin-top: 0;
     }
   }
 }
@@ -352,13 +354,16 @@
   }
 
   .sp-certification {
+    .bg {
+      height: 100vh;
+    }
 
     .sp-res-width {
       width: 510px;
     }
     
     .img-people-certification {
-      margin-top: 0;
+      height: 100vh;
     }
   }
 }
