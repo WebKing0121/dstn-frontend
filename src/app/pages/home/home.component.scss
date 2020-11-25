@@ -9,6 +9,23 @@
       font-size: 40px;
       word-break: break-all;
     }
+
+    .img-con {
+      
+      .img-trees {
+        top: 55%;
+      }
+
+      .img-people {
+        margin-top: -25rem;
+      }
+    }
+  }
+
+  .sp-cissp-leadership {
+    .img-people {
+      bottom: -150px;
+    }
   }
 
   .sp-cissp-instructions,
@@ -24,6 +41,10 @@
       margin-left: auto;
       margin-right: auto;
     }
+  }
+
+  .sp-cissp-instructions {
+    background-position: -3rem 0rem;
   }
 
   .sp-intelligent-system {
@@ -64,6 +85,12 @@
     }
   }
 
+  .sp-cissp-leadership {
+    .img-people {
+      bottom: -80px;
+    }
+  }
+
   .sp-cissp-instructions {
 
     .sp-txt-con {
@@ -77,6 +104,30 @@
     .sp-txt-con {
       padding-left: 22px;
       padding-right: 22px; 
+    }
+  }
+}
+
+@media screen and (min-width: 475px) {
+  .sp-cissp-instructions {
+    background-position: 0 0;
+  }
+
+  .sp-cissp-leadership {
+    .img-people {
+      bottom: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .sp-cissp-instructions {
+    background-position: 0 0;
+  }
+
+  .sp-cissp-leadership {
+    .img-people {
+      height: 110%;
     }
   }
 }
@@ -181,7 +232,7 @@
     }
 
     .img-people {
-      bottom: -68px;
+      bottom: -290px;
     }
   }
 
@@ -259,6 +310,14 @@
     }
   }
 }
+@media screen and (min-width: 801px) {
+
+  .sp-cissp-leadership {
+    .img-people {
+      bottom: 0;
+    }
+  }
+}
 @media screen and (min-width: 1024px) {
   .sp-dsntsummit {
 
@@ -301,7 +360,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   .sp-dsntsummit {
     .img-con {
       .img-clouds {
@@ -316,6 +375,10 @@
         margin-top: -23rem;
       }
     }
+  }
+
+  .sp-cissp-instructions {
+    background-position: 0 -200px;
   }
 
   .sp-cissp-leadership {
@@ -382,7 +445,11 @@
     }
   }
 }
-
+@media screen and (min-width: 1600px) {
+  .sp-video {
+    height: calc(100vh - 110px);
+  }
+}
 @media screen and (min-width: 1600px) {
 
   .sp-dsntsummit {
@@ -422,6 +489,4 @@
       height: 100vh;
     }
   }
-
-  
 }

@@ -6,7 +6,7 @@
     <div class="sp-spacer"></div>
     <div class="dc-carousel">
       <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner" *ngIf="width > 1023">
+        <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="dc-carousel__item">
               <img class="dc-carousel__item-img rounded-circle" src="assets/images/testimonials/testimonal-pic1.jpg" />
@@ -113,10 +113,21 @@
             </div>
           </div>
         </div>
-        <div class="carousel-inner" *ngIf="1024 > width">
-          <div class="carousel-item active">
+        <!-- <div class="carousel-inner" *ngIf="1024 >= width && width >= 768"> -->
+          <!-- <div class="carousel-item active">
             <div class="dc-carousel__item">
               <img class="dc-carousel__item-img rounded-circle" src="assets/images/testimonials/testimonal-pic1.jpg" />
+              <div class="dc-carousel__item-desc">
+                I had a great experience. I can honestly say you were the best teachers. I have had in my entire
+                educational career. I passed only because I attended this training. I am not even happy I passed, I am
+                happy I got a chance to learn so much from you two.
+              </div>
+              <div class="sp-footer__divider"></div>
+              <div class="dc-carousel__item-name sp-pink">Urooj Aqeel</div>
+              <div class="dc-carousel__item-location">Kreyel Networks Ltd.</div>
+            </div>
+            <div class="dc-carousel__item">
+              <img class="dc-carousel__item-img rounded-circle" src="assets/images/testimonials/testimonal-pic2.jpg" />
               <div class="dc-carousel__item-desc">
                 I had a great experience. I can honestly say you were the best teachers. I have had in my entire
                 educational career. I passed only because I attended this training. I am not even happy I passed, I am
@@ -139,6 +150,17 @@
               <div class="dc-carousel__item-name sp-pink">Urooj Aqeel</div>
               <div class="dc-carousel__item-location">Kreyel Networks Ltd.</div>
             </div>
+            <div class="dc-carousel__item">
+              <img class="dc-carousel__item-img rounded-circle" src="assets/images/testimonials/testimonal-pic5.jpg" />
+              <div class="dc-carousel__item-desc">
+                I had a great experience. I can honestly say you were the best teachers. I have had in my entire
+                educational career. I passed only because I attended this training. I am not even happy I passed, I am
+                happy I got a chance to learn so much from you two.
+              </div>
+              <div class="sp-footer__divider"></div>
+              <div class="dc-carousel__item-name sp-pink">Urooj Aqeel</div>
+              <div class="dc-carousel__item-location">Kreyel Networks Ltd.</div>
+            </div>
           </div>
           <div class="carousel-item">
             <div class="dc-carousel__item">
@@ -152,7 +174,18 @@
               <div class="dc-carousel__item-name sp-pink">Urooj Aqeel</div>
               <div class="dc-carousel__item-location">Kreyel Networks Ltd.</div>
             </div>
-          </div>
+            <div class="dc-carousel__item">
+              <img class="dc-carousel__item-img rounded-circle" src="assets/images/testimonials/testimonal-pic6.jpg" />
+              <div class="dc-carousel__item-desc">
+                I had a great experience. I can honestly say you were the best teachers. I have had in my entire
+                educational career. I passed only because I attended this training. I am not even happy I passed, I am
+                happy I got a chance to learn so much from you two.
+              </div>
+              <div class="sp-footer__divider"></div>
+              <div class="dc-carousel__item-name sp-pink">Urooj Aqeel</div>
+              <div class="dc-carousel__item-location">Kreyel Networks Ltd.</div>
+            </div>
+          </div> -->
           <!-- <div class="carousel-item">
             <div class="dc-carousel__item">
               <img class="dc-carousel__item-img rounded-circle" src="assets/images/testimonials/testimonal-pic4.jpg" />
@@ -231,16 +264,11 @@
               <div class="dc-carousel__item-location">Kreyel Networks Ltd.</div>
             </div>
           </div> -->
-        </div>
+        <!-- </div> -->
         <ol class="carousel-indicators">
           <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselIndicators" data-slide-to="1"></li>
           <li data-target="#carouselIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselIndicators" data-slide-to="3" *ngIf="1024 > width"></li>
-          <li data-target="#carouselIndicators" data-slide-to="4" *ngIf="1024 > width"></li>
-          <li data-target="#carouselIndicators" data-slide-to="5" *ngIf="1024 > width"></li>
-          <li data-target="#carouselIndicators" data-slide-to="6" *ngIf="1024 > width"></li>
-          <li data-target="#carouselIndicators" data-slide-to="7" *ngIf="1024 > width"></li>
         </ol>
       </div>
     </div>
