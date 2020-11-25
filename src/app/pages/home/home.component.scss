@@ -363,6 +363,24 @@
     .img-people-certification {
     }
   }
+
+  .sp-cissp-leadership {
+    .sp-img-con{
+
+      .img-clouds {
+        background-position: 100% 0rem;
+      }
+
+      .img-mountain--leadership {
+        top: 250px;
+      }
+
+      .img-people {
+        height: 105%;
+        bottom: -900px;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 1600px) {
@@ -404,4 +422,6 @@
       height: 100vh;
     }
   }
+
+  
 }
