@@ -301,6 +301,40 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .sp-dsntsummit {
+    .img-con {
+      .img-clouds {
+        background-position: 100% 0rem;
+      }
+
+      .img-trees {
+        background-position: 100% 1rem;
+      }
+
+      .img-people {
+        margin-top: -23rem;
+      }
+    }
+  }
+
+  .sp-cissp-leadership {
+    .sp-img-con{
+
+      .img-clouds {
+        background-position: 100% 0rem;
+      }
+
+      .img-mountain--leadership {
+        top: 250px;
+      }
+
+      .img-people {
+        bottom: -750px;
+      }
+    }
+  }
+}
 @media screen and (min-width: 1366px) {
 
   .sp-dsntsummit {
