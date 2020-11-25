@@ -18,7 +18,7 @@
   }
 
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
 
   .sp-footer__logo,
   .sp-footer__divider {
@@ -29,6 +29,10 @@
   .sp-testm-footer .sp-testm .dc-carousel__item:nth-child(2) {
     height: 470px;
     display: inline-flex;
+  }
+
+  a {
+    text-align: left;
   }
 }
 @media screen and (min-width: 1024px) {
