@@ -31,7 +31,7 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "src/assets/rellax/rellax.min.js"
+              "node_modules/rellax/rellax.min.js"
             ]
           },
           "configurations": {
