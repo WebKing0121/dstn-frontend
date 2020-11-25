@@ -19,6 +19,11 @@
       font-size: 36px;
       line-height: 44px;
     }
+    
+    .sp-spacer {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   .sp-intelligent-system {
@@ -221,8 +226,7 @@
       line-height: 50px;
     }
     .sp-spacer {
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 0;
     }
   }
 }
