@@ -125,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "dstncert-frontend"
+    }
+  },
+  "defaultProject": "dstncert-frontend",
+  "cli": {
+    "analytics": "94ce8832-5888-482a-b6e7-90e4865e420c"
+  }
 }

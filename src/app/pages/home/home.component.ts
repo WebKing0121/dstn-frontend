@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {BreakpointObserver} from '@angular/cdk/layout';
 declare var Rellax : any;
 
 @Component({
@@ -8,7 +9,19 @@ declare var Rellax : any;
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  isSmallScreen;
+
+  constructor(
+    private breakpointObserver: BreakpointObserver,
+  ) {
+    const layoutChanges = breakpointObserver.observe([
+      '(max-width: 767px)'
+    ]);
+
+    layoutChanges.subscribe(result => {
+      this.isSmallScreen = result.matches;
+    });
+  }
 
   ngOnInit(): void {
     var rellax = new Rellax('.rellax');

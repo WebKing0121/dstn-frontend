@@ -2,8 +2,6 @@
     .navbar .sp-footer .sp-footer__icon {
         margin: 20px 3px !important;
     }
-    .navbar-items .nav-link, .navbar-nav .sp-navbar-btn {
-    }
     .navbar-nav .navbar-items {
         flex: 1;
     }
@@ -54,7 +52,7 @@
         justify-content: center;
         flex-direction: column;
         overflow: auto;
-        padding-top: 36px;
+        padding-top: 20px;
     }
     .sp-custom-navbar {
         padding: 15px 15px 15px 55px;
@@ -113,6 +111,25 @@
         justify-content: space-around;
     }
     .navbar .sp-footer__text { display: none}
+}
+@media (max-width: 374px) {
+    .navbar-collapse .sp-footer__divider {
+        margin: 0 auto;
+    }
+
+    .navbar .sp-spacer {
+        margin: 0;
+    }
+
+    .navbar-items .nav-link  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        height: 44px;
+        line-height: 44px;
+        font-size: 24px;
+    }
 }
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav {
