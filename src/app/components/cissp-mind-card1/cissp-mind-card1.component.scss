@@ -1,0 +1,20 @@
+@import '../cissp-mind-card/cissp-mind-card.component.scss';
+
+.cissp-mind-card1 {
+  .cissp-mind-card__body {
+    height: 180px;
+    background: radial-gradient(circle, #734183 0%, #343681 100%);
+    box-shadow: 0 10px 25px 0 rgba(93,43,139,0.1);
+  }
+  
+  .mind-num {
+    background: none;
+    padding: 0;
+    color: #F780B1;
+  }
+
+  .explained {
+    margin-top: 0;
+    color: white;
+  }
+}

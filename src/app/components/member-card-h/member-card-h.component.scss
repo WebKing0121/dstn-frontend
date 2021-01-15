@@ -1,0 +1,54 @@
+@import "../member-card/member-card.component.scss";
+
+.member-card-h {
+  .mem {
+    display: flex;
+    flex-direction: column;
+
+    .mem__info {
+      padding: 15px;
+    }
+
+    .img-linkedin-icon {
+      background-image: url("../../../assets/images/our-team/web.svg");
+    }
+
+    @media screen and (min-width: 1024px) {
+      flex-direction: row;
+
+      .mem__info {
+        border-bottom: none;
+        border-right: 1px dashed rgba(255, 255, 255, 0.2);
+        margin-top: 60px;
+        margin-bottom: 60px;
+        min-width: 472px;
+        padding: 0;
+
+        .mem__img {
+          width: 180px;
+          height: 180px;
+          margin: 0 auto;
+        }
+      }
+
+      .mem__details {
+        padding: 57px 38px 0px;
+
+        .mem__details-para {
+          margin-bottom: 35px;
+        }
+      }
+    }
+
+    @media screen and (min-width: 1200px) {
+      .mem__info {
+        min-width: 543px;
+      }
+    }
+  }
+}
+
+.mem__details-para.main::first-letter {
+  font-size: 40px;
+  line-height: 10px;
+}

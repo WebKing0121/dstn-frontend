@@ -2,6 +2,7 @@
   font-size: 36px;
   text-align: center;
 }
+
 @media screen and (min-width: 320px) {
 
   .sp-footer__logo,
@@ -16,10 +17,17 @@
   .sp-testm-footer .sp-testm .dc-carousel__item:nth-child(3) {
     display: none;
   }
+  
+  .footer-logo-text {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 768px) {
 
-  .sp-footer__logo,
+  .sp-footer__logo {
+    margin-left: 0;
+  }
+
   .sp-footer__divider {
     margin-left: auto;
     margin-right: auto;
@@ -38,6 +46,10 @@
   .carousel-indicators li:nth-child(8),
   .carousel-indicators li:nth-child(9) {
     display: none;
+  }
+
+  .footer-logo-text {
+    text-align: left;
   }
 }
 @media screen and (min-width: 1024px) {

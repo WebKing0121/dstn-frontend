@@ -1,0 +1,12 @@
+<div class="our-team row mx-auto">
+  <app-member-card
+    *ngFor="let member of mainMembers"
+    [member]="member"
+    class="mb-sm-3 m-lg-0 m-md-0 col-sm-12 col-lg-6 col-md-12"
+  ></app-member-card>
+  <app-member-card-h
+    *ngFor="let member of otherMembers"
+    [member]="member"
+    class="col-12"
+  ></app-member-card-h>
+</div>

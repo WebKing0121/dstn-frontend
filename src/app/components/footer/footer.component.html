@@ -3,27 +3,32 @@
   <footer class="sp-footer">
     <div class="d-flex sp-footer-res-width row m-auto">
       <div
-        class="col-md-4 col-sm-12 d-flex flex-column justify-content-sm-center text-center text-md-left justify-content-md-between">
+        class="col-md-4 col-sm-12 d-flex flex-column justify-content-sm-center text-md-left text-sm-center justify-content-md-start">
         <div class="sp-footer__logo"></div>
-        <div class="sp-pink mb-1 text-center">© 2020 Destination Certification Inc.</div>
-        <div class="sp-purple text-center">All rights reserved.</div>
+        <div class="sp-pink mb-1 footer-logo-text">© 2021 Destination Certification Inc.</div>
+        <div class="sp-purple footer-logo-text">All rights reserved.</div>
       </div>
       <div class="sp-footer__divider d-lg-none d-md-none d-sm-block w-75"></div>
-      <div class="col-md-5 col-sm-12 mx-0 row">
-        <div class="sp-footer__list d-flex flex-column col-6 align-items-center align-items-md-start">
+      <div class="col-md-6 col-sm-12 mx-0 row">
+        <div class="sp-footer__list d-flex flex-column col-4 align-items-center align-items-md-start">
           <div class="sp-footer__sec-title">Company</div>
           <a class="sp-purple" href="../courses/courses.html">Courses</a>
           <a class="sp-purple" href="../int-sys/int-sys.html">Intelligent System</a>
           <a class="sp-purple" href="#">Our Team</a>
         </div>
-        <div class="sp-footer__list d-flex flex-column col-6 align-items-center align-items-md-start">
+        <div class="sp-footer__list d-flex flex-column col-4 align-items-center align-items-md-start">
+          <div class="sp-footer__sec-title">Resource</div>
+          <a (click)="setDocTitle('Videos')" class="sp-purple" routerLink="resource/videos">Videos</a>
+          <a (click)="setDocTitle('Apps')" class="sp-purple" routerLink="resource/apps">Apps</a>
+        </div>
+        <div class="sp-footer__list d-flex flex-column col-4 align-items-center align-items-md-start">
           <div class="sp-footer__sec-title">Legal</div>
-          <a class="sp-purple" href="#">Privacy Policy </a>
+          <a class="sp-purple" routerLink="privacy-policy">Privacy Policy </a>
           <a class="sp-purple" href="#">Terms of use </a>
         </div>
       </div>
       <div class="sp-footer__divider d-lg-none d-md-none d-sm-block w-75"></div>
-      <div class="d-flex flex-fill flex-column col-sm-12 col-md-3 p-0 text-center text-md-left">
+      <div class="d-flex flex-fill flex-column col-sm-12 col-md-2 p-0 text-center text-md-left">
         <div>Follow us</div>
         <div class="d-flex flex-wrap justify-content-sm-center justify-content-center justify-content-md-start">
           <a href="https://www.facebook.com/Destination-Certification-242199760101700/" target="_blank"

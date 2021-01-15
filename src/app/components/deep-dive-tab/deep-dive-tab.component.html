@@ -1,0 +1,9 @@
+
+<div class="video-content row mx-0">
+  <app-deep-dive-card
+    class="col-6 col-md-4 my-3"
+    *ngFor="let item of items"
+    [link]="item.url"
+    [title]="item.title"
+  ></app-deep-dive-card>
+</div>

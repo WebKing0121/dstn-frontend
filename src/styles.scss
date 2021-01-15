@@ -9,3 +9,10 @@
 @import "./assets/flyouts-styles/flyouts-responsive.css";
 @import "./assets/home/home.css";
 @import "./assets/home/home-responsive.css";
+@import "./app/app.component.scss";
+
+@for $i from 10 through 40 {
+  .f#{$i} {
+    font-size: $i * 1px;
+  }
+}

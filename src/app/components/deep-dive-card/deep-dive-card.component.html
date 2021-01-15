@@ -1,4 +1,4 @@
-<a href='/'>
+<!-- <a [href]="'https://www.youtube.com/watch?v=' + link">
   <div class="deep-dive-card">
     <div class="deep-dive-card_mask">
       <div class="deep-dive-card_content">
@@ -12,6 +12,21 @@
     </div>
     <div class="a-deep-dive d-flex">
       <span>A deep dive</span>
+    </div>
+  </div>
+</a> -->
+<a [href]="'https://www.youtube.com/watch?v=' + link" target="_blank">
+  <div class="deep-dive-card">
+    <div class="deep-dive-card_mask">
+      <div class="deep-dive-card_content">
+        <!-- <iframe id="embedVideo" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" [src]="urlSafe"></iframe> -->
+        <img src="../../../assets/images/header-logo.png" width="68" height="36">
+        <span class="kerberos text-uppercase">kerveros</span>
+        <span class="explained">{{title}}</span>
+      </div>
+    </div>
+    <div class="a-deep-dive d-flex">
+      <span>{{title}}</span>
     </div>
   </div>
 </a>

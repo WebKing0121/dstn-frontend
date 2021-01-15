@@ -1,0 +1,38 @@
+<div class="member-card member-card-h">
+  <div class="mem mem--hor">
+    <div class="mem__info">
+      <div class="mem__img">
+        <img class="rounded-circle" [src]="member.avatar_url">
+      </div>
+      <div class="mem__name">{{member.name}}</div>
+      <div class="mem__role sp-pink">{{member.role}}</div>
+      <div class="sp-spacer mx-auto"></div>
+      <div class="mem__links">
+        <div class="mem__link mem__email-link" *ngIf="member.mail">
+          <span class="mem__link-icon sp-pink img-mail-icon"></span><a class="sp-purple"
+            href="mailto: john@destcert.com">{{member.mail}}</a>
+        </div>
+        <div class="mem__link mem__profile-link" *ngIf="member.site_url">
+          <span class="mem__link-icon sp-pink img-linkedin-icon"></span><a class="sp-purple"
+            [href]="member.site_url" target="_blank">{{member.site_url}}</a>
+        </div>
+      </div>
+    </div>
+    <div class="mem__details">
+      <p class="mem__details-para main">
+        {{member.summary}}
+      </p>
+      <div id="omember" class="collapse">
+        <p class="mem__details-para" *ngFor="let item of member.summary_ext">
+          {{item}}
+        </p>
+      </div>
+      <div class="show-more-btn-wrapper">
+        <div class="show-more-btn mx-auto mt-3 mb-4 collapsed" data-toggle="collapse" data-target="#omember">
+          <span class="show-more more">Show more</span>
+          <span class="show-more less">Show less</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

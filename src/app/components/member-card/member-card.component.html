@@ -1,0 +1,42 @@
+<div class="member-card">
+  <div class="mem mem--hor flex-column">
+    <div class="mem__info">
+      <div class="mem__img">
+        <img class="rounded-circle" [src]="member.avatar_url">
+      </div>
+      <div class="mem__name">{{member.name}}</div>
+      <div class="mem__role sp-pink">{{member.role}}</div>
+      <div class="mem__desgn">{{member.company}}</div>
+      <div class="sp-spacer mx-auto"></div>
+      <div class="mem__links">
+        <div class="mem__link mem__email-link">
+          <span class="mem__link-icon sp-pink img-mail-icon"></span><a class="sp-purple"
+            href="mailto: john@destcert.com">{{member.mail}}</a>
+        </div>
+        <div class="mem__link mem__profile-link">
+          <span class="mem__link-icon sp-pink img-linkedin-icon"></span><a class="sp-purple"
+            [href]="member.linkedin_url" target="_blank">{{member.linkedin_url}}</a>
+        </div>
+      </div>
+    </div>
+    <div class="mem__details v-height">
+      <p class="mem__details-para main">
+        {{member.summary}}</p>
+      <div [id]="'demo'+member.mail.length" class="collapse">
+        <p class="mem__details-para">{{member.summary_ext}}</p>
+        <ul class="mem_details__timeline">
+          <li class="mem_details__timeline-item" *ngFor="let item of member.summary_details">{{item}}</li>
+        </ul>
+        <p class="mem__details-para" *ngFor="let item of member.summary_end">
+          {{item}}
+        </p>
+      </div>
+      <div class="show-more-btn-wrapper">
+        <div class="show-more-btn mx-auto mt-3 mb-4 collapsed" data-toggle="collapse" [attr.data-target]="'#demo'+member.mail.length">
+          <span class="show-more more">Show more</span>
+          <span class="show-more less">Show less</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

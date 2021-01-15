@@ -1,0 +1,130 @@
+
+@import './video-resource/video-resource.component.scss';
+
+.resource {
+
+  .mat-tab-header-pagination {
+    min-width: 0;
+    width: 0;
+  }
+
+  & > .mat-tab-group > .mat-tab-header > .mat-tab-label-container > .mat-tab-list > .mat-tab-labels {
+    justify-content: center;
+
+    // @media screen and (min-width: 360px) {
+    //   justify-content: space-between;
+    // }
+
+    // @media screen and (min-width: 1024px) {
+    //   justify-content: center;
+    // }
+  }
+
+  & > .mat-tab-group > .mat-tab-header {
+    border: none;
+  }
+
+  & > .mat-tab-group > .mat-tab-header > .mat-tab-label-container > .mat-tab-list > .mat-tab-labels > .mat-tab-label {
+
+    @media screen and (min-width: 360px) {
+      width: 180px;
+      height: 120px!important;
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 240px;
+      height: 140px!important;
+    }
+  }
+
+  .mat-tab-label {
+    opacity: 1;
+  }
+
+  .mat-tab-group.mat-primary .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled) {
+    background: none;
+  }
+
+  .main-tab-wrapper {
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+
+    span {
+      line-height: 22px;
+    }
+
+    @media screen and (min-width: 360px) {
+      width: 165px;
+      height: 54px;
+
+      .video-tab-icon {
+        width: 26px;
+        height: 26px;
+      }
+
+      .app-tab-icon {
+        width: 21px;
+        height: 21px;
+      }
+
+      span {
+        font-size: 16px;
+      }
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 200px;
+      height: 70px;
+
+      .video-tab-icon {
+        width: 32px;
+        height: 32px;
+      }
+
+      .app-tab-icon {
+        width: 24px;
+        height: 24px;
+      }
+
+      span {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .mat-tab-label .main-tab-wrapper {
+    border: 1px solid #594E87;
+    background-color: rgba(38,27,79,0.9);
+    box-shadow: 10px 20px 20px 0 rgba(0,2,19,0.15);
+    color: #998CE5;
+
+    svg g {
+      fill: #766DAA;
+    }
+  }
+
+  .mat-tab-label:hover .main-tab-wrapper,
+  .mat-tab-label.mat-tab-label-active .main-tab-wrapper {
+    border: 2px solid #A64CD7;
+    background-color: rgba(173,81,250,0.1);
+    box-shadow: 0 0 20px 0 rgba(219,79,255,0.5);
+    color: white;
+
+    @media screen and (min-width: 360px) {
+      box-shadow: 0 0 10px 0 rgba(219,79,255,0.5);
+    }
+
+    @media screen and (min-width: 1024px) {
+      box-shadow: 0 0 10px 0 rgba(219,79,255,0.5);
+    }
+
+    svg g {
+      fill: #ffffff;
+    }
+  }
+
+  .mat-ink-bar {
+    display: none;
+  }
+}

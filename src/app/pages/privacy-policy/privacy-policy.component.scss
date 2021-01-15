@@ -1,0 +1,134 @@
+.privacy-policy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 160px;
+  color: #BBB9C6;
+
+  &__heading {
+    opacity: 0.95;
+    color: #FFFFFF;
+    font-family: "Helvetica Neue";
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 0.37px;
+    line-height: 76px;
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  &__content {
+    opacity: 0.99;
+    box-sizing: border-box;
+    max-width: 1186px;
+
+    @media screen and (min-width: 320px) {
+      padding: 73px 20px;
+      background: none;
+      border: none;
+    }
+
+    @media screen and (min-width: 768px) {
+      padding: 73px 40px;
+    }
+
+    @media screen and (min-width: 1024px) {
+      border: 1px solid #5a4e8880;
+      border-radius: 8px;
+      background-color: #261b4f66;
+      box-shadow: 10px 20px 30px 0 #0002131a;
+      padding: 73px 77px;
+    }
+  }
+
+  p {
+    margin-bottom: 1.6rem;
+    word-break: break-all;
+
+    @media screen and (min-width: 768px) {
+    }
+
+    @media screen and (min-width: 1024px) {
+      word-break: keep-all;
+    }
+  }
+
+  .p__title {
+    color: #F3F3F5;
+    font-family: "Helvetica Neue";
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0.38px;
+    line-height: 50px;
+    padding-bottom: 30px;
+  }
+
+  .url {
+    color: #9F93E3;
+  }
+
+  .strong {
+    color: #D7779B;
+  }
+
+  .divider {
+    box-sizing: border-box;
+    height: 1px;
+    max-width: 1033px;
+    border: 1px dashed #FFFFFF;
+    opacity: 0.12;
+    margin-bottom: 3rem;
+  }
+
+  .subject {
+    padding-bottom: 45px;
+  }
+
+  .s__title {
+    color: #D7779B;
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.45px;
+    line-height: 23px;
+    padding-bottom: 6px;
+  }
+
+  .s__content {
+    color: #BBB9C6;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    letter-spacing: 0.37px;
+    line-height: 22px;
+  }
+
+  .p__s__title {
+    color: #F3F3F5;
+    font-family: "Helvetica Neue";
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.25px;
+    line-height: 50px;
+  }
+
+  .oval {
+    box-sizing: border-box;
+    height: 8px;
+    width: 8px;
+    border: 1.5px solid #B0A4F5;
+  }
+
+  ul {
+    margin-left: 1rem;
+    list-style-image: url('../../../assets/images/our-team/circle.svg');
+  
+    li {
+      color: #BBB9C6;
+      font-family: "Helvetica Neue";
+      font-size: 14px;
+      letter-spacing: 0.37px;
+      line-height: 20px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.show-more {
+  margin-left: auto;
+  font-weight: bold;
+
+  &.more {
+    display: none;
+  }
+
+  &.less {
+    display: flex;
+    color: #D7779B;
+  }
+}
+
+.collapsed {
+  .show-more {
+
+    &.more {
+      display: flex;
+      color: #998CE5;
+    }
+
+    &.less {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,224 @@
+.resource-video {
+  margin-top: 10px;
+
+  @media screen and (min-width: 1024px) {
+    margin-top: 35px;
+    box-sizing: border-box;
+    width: 964px;
+    min-height: 1480px;
+    border: 1px solid #594E87;
+    border-radius: 8px;
+    background-color: #261b4fbb;
+    box-shadow: 10px 20px 30px 0 #00021322;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 65px;
+    width: 1186px;
+  }
+
+  .mat-tab-nav-bar, .mat-tab-header {
+    border-bottom: 1px solid #322B54;
+  }
+
+  .sub-tab-wrapper {
+    cursor: pointer;
+    height: 100%;
+    padding-top: 40px;
+  }
+
+  .mat-tab-label {
+    height: 124px;
+    padding: 0 13px;
+
+    .mat-tab-label-content {
+      height: 100%;
+    }
+
+    @media screen and (min-width: 1024px) {
+      height: 93px;
+      padding: 0 24px;
+    }
+  }
+
+  .mat-tab-label .sub-tab-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #fff;
+    opacity: 0.6;
+
+    .sub-tab {
+      flex-direction: column;
+      max-width: 62px;
+      white-space: break-spaces;
+      align-items: center;
+      font-size: 12px;
+    }
+
+    .mindmap-icon,
+    .deep-dive-icon,
+    .what-hack-icon,
+    .cybersecure-icon {
+      g { fill: #fff8; }
+    }
+
+    @media screen and (min-width: 1024px) {
+
+      .sub-tab {
+        flex-direction: row;
+        max-width: 100%;
+      }
+    }
+
+    .tab-bottom-line {
+      margin-top: 3px;
+      visibility: hidden;
+
+      @media screen and (min-width: 1024px) {
+        margin-top: 23px;
+      }
+    }
+  }
+
+  .mat-tab-label.mat-tab-label-active  .sub-tab-wrapper .tab-bottom-line{
+    margin-top: 0px;
+    margin-left: -3px;
+    margin-right: -3px;
+    visibility: visible;
+    background: #E56F9F;
+    height: 3px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+
+    @media screen and (min-width: 1024px) {
+      margin-top: 20px;
+    }
+  }
+
+  .mat-tab-label:hover .sub-tab-wrapper,
+  .mat-tab-label.mat-tab-label-active .sub-tab-wrapper {
+    color: #E56F9F;
+    opacity: 1;
+
+    .mindmap-icon,
+    .deep-dive-icon,
+    .what-hack-icon,
+    .cybersecure-icon {
+      g { fill: #E56F9F; }
+    }
+  }
+
+  .video-content {
+    padding: 32px 5px; 
+
+    @media screen and (min-width: 1024px) {
+      padding: 30px 15px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      padding: 53px 50px;
+    }
+  }
+
+  .mindmap-icon,
+  .deep-dive-icon,
+  .what-hack-icon,
+  .cybersecure-icon {
+    fill: #fff8;
+  }
+
+  .mindmap-icon {
+    width: 25px;
+    height: 22px;
+
+    @media screen and (min-width: 1024px) {
+      width: 27px;
+      height: 24px;
+    }
+
+    @media screen and (min-width: 1200px) {
+    }
+  }
+
+  .deep-dive-icon {
+    width: 18px;
+    height: 20px;
+
+    @media screen and (min-width: 1024px) {
+      width: 20px;
+      height: 23px;
+    }
+  }
+
+  .what-hack-icon {
+    width: 25px;
+    height: 25px;
+
+    @media screen and (min-width: 1024px) {
+      width: 28px;
+      height: 28px;
+    }
+  }
+
+  .cybersecure-icon {
+    width: 20px;
+    height: 27px;
+
+    @media screen and (min-width: 1024px) {
+      width: 22px;
+      height: 30px;
+    }
+  }
+
+  .tab-label-md {
+    display: none;
+
+    @media screen and (min-width: 1024px) {
+      display: flex;
+      margin-left: 11px;
+      font-size: 15px;
+    }
+  }
+
+  .tab-label-sm {
+    margin-top: 11px;
+    display: flex;
+
+    @media screen and (min-width: 1024px) {
+      display: none;
+    }
+  }
+
+  .domain-title {
+    margin-bottom: 20px;
+    display: flex;
+    cursor: pointer;
+
+    &__num,
+    &__text {
+      opacity: 0.8;
+      color: #FFFFFF;
+      font-family: "Helvetica Neue";
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      line-height: 25px;
+    }
+    
+    &__num {
+      color: #D7779B;
+      margin-right: 10px;
+    }
+  }
+
+  .para-divider {
+    box-sizing: border-box;
+    height: 1px;
+    border: 1px solid #3C2C80;
+    opacity: 0.4;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+}

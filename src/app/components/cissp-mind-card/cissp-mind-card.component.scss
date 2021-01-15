@@ -1,0 +1,117 @@
+.cissp-mind-card {
+  box-sizing: border-box;
+  height: 303px;
+  width: 100%;
+  border: 1px solid #312b5ae6;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #21224be6 0%, #33265ae6 100%);
+  box-shadow: 0 10px 25px 0 #5d2b8b1a;
+  padding: 11px;
+  margin: 20px 0;
+  
+  .cissp-mind-card__body {
+    height: 180px;
+    opacity: 0.95;
+    border-radius: 6px;
+    background: linear-gradient(270deg, rgba(103,89,179,0) 0%, #3C0C68 51.53%, #110432 100%);
+    // padding: 19px 8px 8px 27px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    overflow: hidden;
+
+    iframe, img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .explained {
+    color: #F473B9;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.46px;
+    line-height: 20px;
+    margin-top: 13px;
+  }
+
+  .mindmap {
+    color: #fffffff2;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 42px;
+    letter-spacing: 0.44px;
+    line-height: 52px;
+    font-weight: 900;
+  }
+
+  .mind-num {
+    height: 23px;
+    width: fit-content;
+    padding: 7px 14px;
+    border-radius: 5px;
+    background: linear-gradient(270deg, #7937B4 0%, #8F478F 100%);
+    text-align: center;
+    color: #D4A6F9;
+    font-family: "Helvetica Neue";
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mind-map {
+    height: 22px;
+    opacity: 0.8;
+    color: #FFFFFF;
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.46px;
+    line-height: 22px;
+    display: flex;
+    margin-top: 8px;
+    margin-left: 11px;
+    pointer-events: none;
+  }
+
+  .video-duration {
+    height: 20px;
+    border-radius: 4px;
+    background-color: rgba(27,31,72,0.5);
+    box-shadow: 20px 40px 60px 0 rgba(0,2,19,0.15);
+
+    span {
+      height: 18px;
+      opacity: 0.9;
+      color: #FFFFFF;
+      font-family: "Helvetica Neue";
+      font-size: 11px;
+      font-weight: bold;
+      letter-spacing: 0.6px;
+      line-height: 18px;
+    }
+  }
+
+  .download-the-cissp-icon {
+    color: #968BDB;
+    border-bottom: 1px solid #968BDB;
+    width: 12px;
+    height: 14px;
+    margin-left: 10px;
+    margin-right: 12px;
+  }
+
+  .download-mind-map {
+    margin-top: 36px;
+    height: 15px;
+    color: #968BDB;
+    font-family: "Helvetica Neue";
+    font-size: 13px;
+    letter-spacing: 0.37px;
+    line-height: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

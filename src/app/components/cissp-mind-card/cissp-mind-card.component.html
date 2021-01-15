@@ -1,0 +1,36 @@
+<!-- <div class="cissp-mind-card">
+  <div class="cissp-mind-card__body">
+    <img src="../../../assets/images/header-logo.png" width="53" height="28">
+    <span class="explained">CISSP Domain {{groupId}}</span>
+    <span class="mindmap text-uppercase">mindmap</span>
+    <span class="mind-num">{{itemId}} of {{groupSize}}</span>
+    <div class="d-flex ml-auto justify-content-center video-duration">
+      <span>6:45:20</span>
+    </div>
+  </div>
+  <span class="mind-map">{{title}}</span>
+  <div class="d-flex download-mind-map">
+    <mat-icon class="download-the-cissp-icon f13">arrow_downward</mat-icon>
+    <span>{{title}}</span>
+  </div>
+</div> -->
+<!-- <div class="cissp-mind-card">
+  <div class="cissp-mind-card__body">
+    <iframe id="embedVideo" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" [src]="urlSafe"></iframe>
+  </div>
+  <span class="mind-map">{{title}}</span>
+  <div class="d-flex download-mind-map">
+    <mat-icon class="download-the-cissp-icon f13">arrow_downward</mat-icon>
+    <span>{{title}}</span>
+  </div>
+</div> -->
+<div class="cissp-mind-card">
+  <a [href]="urlSafe" target="_blank" class="cissp-mind-card__body">
+    <img [src]="'../../../assets/images/resource/' + imgPath + ' YT-thumbnail.png'">
+  </a>
+  <span class="mind-map">{{title}}</span>
+  <div class="d-flex download-mind-map">
+    <mat-icon class="download-the-cissp-icon f13">arrow_downward</mat-icon>
+    <span>{{title}}</span>
+  </div>
+</div>

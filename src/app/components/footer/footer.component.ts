@@ -1,4 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
@@ -6,7 +8,7 @@ import { Component, HostListener, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
   width: number = 1240;
-  constructor() { }
+  constructor(private titleService: Title) {}
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
@@ -16,4 +18,7 @@ export class FooterComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  setDocTitle(title: string) {
+    this.titleService.setTitle(title);
+  }
 }

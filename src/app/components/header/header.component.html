@@ -17,19 +17,19 @@
     <div class="d-flex align-items-center navbar-items">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a data-toggle="collapse" data-target="#navbarTogglerDemo01" routerLink="home" class="nav-link"
+          <a (click)="setDocTitle('Home')" data-toggle="collapse" data-target="#navbarTogglerDemo01" routerLink="home" class="nav-link"
             [class]="scrollPosition >= 50 ? 'nav-link1' : 'nav-link'"><b>Home</b></a>
         </li>
         <li class="nav-item">
-          <a data-toggle="collapse" data-target="#navbarTogglerDemo01" routerLink="courses" class="nav-link"
+          <a (click)="setDocTitle('Courses')" data-toggle="collapse" data-target="#navbarTogglerDemo01" routerLink="courses" class="nav-link"
             [class]="scrollPosition >= 50 ? 'nav-link1' : 'nav-link'"><b>Courses</b></a>
         </li>
         <li class="nav-item">
-          <a data-toggle="collapse" data-target="#navbarTogglerDemo01" routerLink="features" class="nav-link"
+          <a (click)="setDocTitle('Intelligent System')" data-toggle="collapse" data-target="#navbarTogglerDemo01" routerLink="features" class="nav-link"
             [class]="scrollPosition >= 50 ? 'nav-link1' : 'nav-link'"><b>Intelligent System</b></a>
         </li>
         <li class="nav-item">
-          <a data-toggle="collapse" data-target="#navbarTogglerDemo01" routerLink="about" class="nav-link"
+          <a (click)="setDocTitle('Our Team')" data-toggle="collapse" data-target="#navbarTogglerDemo01" routerLink="our-team" class="nav-link"
             [class]="scrollPosition >= 50 ? 'nav-link1' : 'nav-link'"><b>Our Team</b></a>
         </li>
         <a class="btn sp-navbar-btn" href="https://my.destcert.com"><b>Dashboard</b></a>
