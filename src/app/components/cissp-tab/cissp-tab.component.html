@@ -1,127 +1,30 @@
-<!-- <div class="video-content">
-  <div class="domain-title">
-    <span class="domain-title__num">Domain 1:</span>
-    <span class="domain-title__text">Security and Risk Management</span>
-  </div>
-  <div class="row">
-    <app-cissp-mind-card class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card>
-  </div>
-  <div class="para-divider"></div>
-  <div class="domain-title">
-    <span class="domain-title__num">Domain 2:</span>
-    <span class="domain-title__text">Asset Security</span>
-  </div>
-  <div class="row">
-    <app-cissp-mind-card class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card>
-    <app-cissp-mind-card class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card>
-  </div>
-  <div class="para-divider"></div>
-  <div class="domain-title">
-    <span class="domain-title__num">Domain 3:</span>
-    <span class="domain-title__text">Security Architecture and Engineering</span>
-  </div>
-  <div class="row">
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-  </div>
-  <div class="para-divider"></div>
-  <div class="domain-title">
-    <span class="domain-title__num">Domain 4:</span>
-    <span class="domain-title__text">Communications and Network Security</span>
-  </div>
-  <div class="row mx-0">
-    <mat-icon class="download-the-cissp-icon f24">videocam_off</mat-icon>
-    <span class="ml-2">No videos yet...</span>
-  </div>
-  <div class="para-divider"></div>
-  <div class="domain-title">
-    <span class="domain-title__num">Domain 5:</span>
-    <span class="domain-title__text">Identity and Access Management</span>
-  </div>
-  <div class="row">
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-  </div>
-  <div class="para-divider"></div>
-  <div class="domain-title">
-    <span class="domain-title__num">Domain 6:</span>
-    <span class="domain-title__text">Security Assessment and Testing</span>
-  </div>
-  <div class="row">
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-  </div>
-  <div class="para-divider"></div>
-  <div class="domain-title">
-    <span class="domain-title__num">Domain 7:</span>
-    <span class="domain-title__text">Security Operations</span>
-  </div>
-  <div class="row">
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-  </div>
-  <div class="para-divider"></div>
-  <div class="domain-title">
-    <span class="domain-title__num">Domain 8:</span>
-    <span class="domain-title__text">Software Development Security</span>
-  </div>
-  <div class="row">
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-    <app-cissp-mind-card1 class="col-md-4 col-sm-6 col-xm-12"></app-cissp-mind-card1>
-  </div>
-</div> -->
-<!-- second step -->
-<!-- <div class="video-content">
-  <div *ngFor="let domain of domainData">
-    <div class="domain-title">
-      <span class="domain-title__num">Domain {{domain.idx}}:</span>
-      <span class="domain-title__text">{{domain.title}}</span>
-    </div>
-    <div class="row">
-      <app-cissp-mind-card
-        *ngFor="let item of domain.courses"
-        class="col-md-4 col-sm-6 col-xm-12"
-        [title]="item.title"
-        [url]="item.url"
-        [itemId]="item.idx"
-        [groupSize]="domain.courses.length"
-        [groupId]="domain.idx"
-      ></app-cissp-mind-card>
-    </div>
-    <div class="para-divider"></div>
-  </div>
-</div> -->
 <div class="video-content">
   <div *ngFor="let domain of domainData">
-    <div class="domain-title collapsed" data-toggle="collapse" [attr.data-target]="'#demo'+domain.idx">
-      <span class="domain-title__num">Domain {{domain.idx}}:</span>
-      <span class="domain-title__text">{{domain.title}}</span>
-      <mat-icon class="show-more more">expand_more</mat-icon>
-      <mat-icon class="show-more less">expand_less</mat-icon>
-    </div>
-    <div [id]="'demo'+domain.idx" class="row collapse">
-      <app-cissp-mind-card
-        *ngFor="let item of domain.courses"
-        class="col-md-4 col-sm-6 col-xm-12"
-        [title]="item.title"
-        [url]="item.url"
-        [itemId]="item.idx"
-        [groupSize]="domain.courses.length"
-        [groupId]="domain.idx"
-      ></app-cissp-mind-card>
-    </div>
+    <mat-accordion>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <span class="domain-title__num">Domain {{domain.idx}}:</span>
+          </mat-panel-title>
+          <mat-panel-description>
+            <span class="domain-title__text">{{domain.title}}</span>
+            <mat-icon class="ml-auto show-more more">expand_more</mat-icon>
+            <mat-icon class="ml-auto show-more less">expand_less</mat-icon>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div [id]="'demo'+domain.idx" class="row">
+          <app-cissp-mind-card
+            *ngFor="let item of domain.courses"
+            class="col-md-4 col-sm-6 col-xm-12"
+            [title]="item.title"
+            [url]="item.url"
+            [itemId]="item.idx"
+            [groupSize]="domain.courses.length"
+            [groupId]="domain.idx"
+          ></app-cissp-mind-card>
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
     <div class="para-divider"></div>
   </div>
 </div>

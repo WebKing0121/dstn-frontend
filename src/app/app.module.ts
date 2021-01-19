@@ -11,6 +11,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ResourceComponent } from './pages/resource/resource.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { VideoResourceComponent } from './pages/resource/video-resource/video-resource.component';
 import { AppResourceComponent } from './pages/resource/app-resource/app-resource.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -54,7 +56,9 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
     AppRoutingModule,
     MatIconModule,
     MatTabsModule,
-    BrowserAnimationsModule
+    MatSidenavModule,
+    MatExpansionModule,
+    BrowserAnimationsModule,
   ],
   providers: [Title],
   bootstrap: [AppComponent]

@@ -120,6 +120,16 @@
     @media screen and (min-width: 1200px) {
       padding: 53px 50px;
     }
+
+    .mat-expansion-panel {
+      background: none;
+      border: none;
+      box-shadow: none;
+
+      .mat-expansion-panel-header-title {
+        flex-grow: 0;
+      }
+    }
   }
 
   .mindmap-icon,

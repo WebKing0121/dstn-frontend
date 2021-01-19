@@ -2,25 +2,27 @@
   margin-left: auto;
   font-weight: bold;
 
-  &.more {
+  &.less {
     display: none;
   }
 
-  &.less {
+  &.more {
     display: flex;
     color: #D7779B;
   }
 }
 
-.collapsed {
+
+.mat-expanded {
+
   .show-more {
 
-    &.more {
+    &.less {
       display: flex;
       color: #998CE5;
     }
 
-    &.less {
+    &.more {
       display: none;
     }
   }
