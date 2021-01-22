@@ -27,6 +27,7 @@ import { DeepDiveTabComponent } from './components/deep-dive-tab/deep-dive-tab.c
 import { WhatTheHackTabComponent } from './components/what-the-hack-tab/what-the-hack-tab.component';
 import { CybersecurityTabComponent } from './components/cybersecurity-tab/cybersecurity-tab.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
+import { MenuIconComponent } from './components/menu-icon/menu-icon.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
     DeepDiveTabComponent,
     WhatTheHackTabComponent,
     CybersecurityTabComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
+    MenuIconComponent
   ],
   imports: [
     BrowserModule,
