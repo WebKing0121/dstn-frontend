@@ -80,6 +80,10 @@
     opacity: 0.8;
     text-decoration: none;
 
+    @media screen and (max-width: 425px) {
+      display: none;
+    }
+
     span {
       font-family: "Helvetica Neue";
       font-size: 15px;

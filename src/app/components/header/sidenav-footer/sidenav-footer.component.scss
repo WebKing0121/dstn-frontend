@@ -3,6 +3,7 @@
   position: fixed;
   bottom: 0;
   padding-bottom: 38px;
+  background-color: #030820;
 }
 
 .sidenav-footer-links {
@@ -67,4 +68,8 @@
 
 .pink {
   color: #D7779B;
+}
+
+.sp-footer__icon {
+  margin: 0 !important;
 }

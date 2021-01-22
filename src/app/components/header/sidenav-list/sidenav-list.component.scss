@@ -1,5 +1,37 @@
 .sidenav-list {
-  padding-bottom: 300px;
+  padding-bottom: 350px;
+
+  .dashboard {
+    display: flex;
+    width: 164px;
+    height: 40px;
+    margin-right: 41px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    opacity: 0.8;
+    text-decoration: none;
+    outline: none;
+    margin-left: 29px;
+
+    span {
+      font-family: "Helvetica Neue";
+      font-size: 15px;
+      letter-spacing: 0.54px;
+      line-height: 17px;
+    }
+
+    &:hover {
+      opacity: 0.8;
+      color: #ee5379;
+      border-color: #ee5379;
+    }
+
+    @media screen and (min-width: 426px) {
+      display: none;
+    }
+  }
 }
 
 .nav-link {
