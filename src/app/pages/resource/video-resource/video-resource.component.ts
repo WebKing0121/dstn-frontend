@@ -17,7 +17,6 @@ export class VideoResourceComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log(window.location.pathname)
     if (window.location.pathname === '/resource/videos/deep-dive') {
       this.demo1TabIndex = 1
       this.setDocTitle('Deep Dive')
