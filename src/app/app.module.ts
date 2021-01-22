@@ -28,6 +28,8 @@ import { WhatTheHackTabComponent } from './components/what-the-hack-tab/what-the
 import { CybersecurityTabComponent } from './components/cybersecurity-tab/cybersecurity-tab.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 import { MenuIconComponent } from './components/menu-icon/menu-icon.component';
+import { SidenavListComponent } from './components/header/sidenav-list/sidenav-list.component';
+import { SidenavFooterComponent } from './components/header/sidenav-footer/sidenav-footer.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +53,9 @@ import { MenuIconComponent } from './components/menu-icon/menu-icon.component';
     WhatTheHackTabComponent,
     CybersecurityTabComponent,
     PrivacyPolicyComponent,
-    MenuIconComponent
+    MenuIconComponent,
+    SidenavListComponent,
+    SidenavFooterComponent
   ],
   imports: [
     BrowserModule,
