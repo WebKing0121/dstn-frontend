@@ -3,7 +3,6 @@ const navIcon = document.querySelector('.navbar-brand-nav-icon');
 const mobileNavIcon = document.querySelector('.navbar-brand-nav-icon--mobile');
 const navLink = document.querySelectorAll('.nav-link');
 const navbrand = document.querySelector('.navbar-brand');
-const navBtn = document.querySelector('.sp-navbar-btn');
 const mobileNavBtn = document.querySelector('.sp-mobile-nav-btn--mobile');
 
 window.onscroll = function () {
@@ -23,8 +22,6 @@ window.onscroll = function () {
             });
             navIcon.style.width = "72px";
             navIcon.style.height = "39px";
-            // navBtn.style.padding = "5px 30px";
-            // navBtn.style.fontSize = "14px";
         }
         else {
             navbar.style.background = "linear-gradient(0deg, rgba(6, 6, 18, 0) 0, rgba(6, 1, 29, 0.68) 100%)";
@@ -37,8 +34,6 @@ window.onscroll = function () {
             });
             navIcon.style.width = "82px";
             navIcon.style.height = "44px";
-            // navBtn.style.padding = "10px 30px";
-            // navBtn.style.fontSize = "15px";
         }
     }
     if(window.innerWidth <= 992) {
