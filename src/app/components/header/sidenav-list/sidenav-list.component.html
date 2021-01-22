@@ -1,0 +1,14 @@
+<div class="sidenav-list">
+  <ul class="mr-auto">
+    <li *ngFor="let item of navItems" class="nav-item">
+      <a
+        (click)="setDocTitle(item.value)"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        [routerLink]="item.url"
+        class="nav-link">
+        <span>{{item.value}}</span>
+      </a>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,18 @@
+.sidenav-list {
+  padding-bottom: 300px;
+}
+
+.nav-link {
+  outline: none;
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  letter-spacing: 0.33px;
+  line-height: 18px;
+  padding-top: 40px;
+  padding-left: 10px;
+
+  &:hover,
+  &:active {
+    color: #E56F9F;
+  }
+}

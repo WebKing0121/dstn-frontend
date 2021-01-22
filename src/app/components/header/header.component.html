@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between"
+<!-- <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between"
   [class]="scrollPosition >= 50 ? 'navbar1' : ''">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
     aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
           <a (click)="setDocTitle('Our Team')" data-toggle="collapse" data-target="#navbarTogglerDemo01" routerLink="our-team" class="nav-link"
             [class]="scrollPosition >= 50 ? 'nav-link1' : 'nav-link'"><b>Our Team</b></a>
         </li>
-        <a class="btn sp-navbar-btn" href="https://my.destcert.com"><b>Dashboard</b></a>
+        <a class="btn dashboard sp-navbar-btn" href="https://my.destcert.com"><b>Dashboard</b></a>
       </ul>
     </div>
     <div class="sp-footer__divider d-lg-none d-m-none"></div>
@@ -47,4 +47,30 @@
         class="sp-footer__icon youtube-normal"></a>
     </div>
   </div>
-</nav>
+</nav> -->
+
+<div class="header d-flex justify-space-between">
+  <mat-drawer-container class="sidenav-container" autosize>
+    <mat-drawer
+      #drawer
+      class="sidenav-content"
+      mode="over"
+      position="end"
+      >
+      <app-sidenav-list [navItems]="navItems"></app-sidenav-list>
+      <app-sidenav-footer></app-sidenav-footer>
+    </mat-drawer>
+    <div class="example-sidenav-content">
+    </div>
+  </mat-drawer-container>
+  <a class="header__logo navbar-brand" href="/">
+    <span
+      class="nav-icon navbar-brand-nav-icon"
+      [class]="scrollPosition >= 50 ? 'navbar-brand-nav-icon1' : ''">
+    </span>
+  </a>
+  <div class="header__menu-control">
+    <a class="dashboard" href="https://my.destcert.com"><span>My Dashboard</span></a>
+    <app-menu-icon (click)="drawer.toggle()"></app-menu-icon>
+  </div>
+</div>
