@@ -110,7 +110,7 @@
 
 .sidenav-content {
   padding-top: 103px;
-  width: 304px;
+  width: 315px;
   background-color: #030820;
   color: white;
   animation-duration: 0.4s;
@@ -140,5 +140,21 @@
 
   to {
     opacity: 1;
+  }
+}
+
+.mobile-nav {
+  display: block!important;
+
+  @media screen and (min-width: 425px){
+    display: none!important;
+  }
+}
+
+.windows-nav {
+  display: none!important;
+
+  @media screen and (min-width: 425px) {
+    display: block!important;
   }
 }
