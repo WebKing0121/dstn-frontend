@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 9" width="20" height="9">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #F473B9 } 
+	</style>
+	<g id="Assets">
+		<path id="Oval" class="shp0" d="M4.47 8.5C2.26 8.49 0.49 6.69 0.5 4.47C0.51 2.26 2.31 0.49 4.53 0.5C6.74 0.51 8.51 2.31 8.5 4.53C8.49 6.74 6.69 8.51 4.47 8.5Z" />
+	</g>
+</svg>
