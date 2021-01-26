@@ -50,17 +50,21 @@
 </nav>
 
 <div class="windows-nav header d-flex justify-space-between">
-  <mat-drawer-container class="sidenav-container" autosize>
+  <mat-drawer-container
+    class="sidenav-container" autosize
+    (click)="hideSideNav()"
+  >
     <mat-drawer
       #drawer
       class="sidenav-content"
       mode="over"
       position="end"
+      (click)="hideSideNav()"
       >
       <app-sidenav-list [navItems]="navItems"></app-sidenav-list>
       <app-sidenav-footer></app-sidenav-footer>
     </mat-drawer>
-    <div class="example-sidenav-content">
+    <div class="sidenav-left-content">
     </div>
   </mat-drawer-container>
   <a class="header__logo navbar-brand" href="/">

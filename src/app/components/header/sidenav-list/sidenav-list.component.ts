@@ -16,7 +16,6 @@ export class SidenavListComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log('items: ', this.navItems)
   }
 
   setDocTitle(title: string) {

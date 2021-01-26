@@ -13,7 +13,6 @@ export class MenuIconComponent implements OnInit {
 
   ngOnInit(): void {
     this.icon = document.getElementById('sideNavIcon')
-    console.log('hamberger: ', this.icon)
   }
 
   showMenu() {
