@@ -1,7 +1,7 @@
 <div class="video-content">
   <div *ngFor="let domain of domainData">
     <mat-accordion>
-      <mat-expansion-panel hideToggle>
+      <mat-expansion-panel [expanded]="domain.idx === 1">
         <mat-expansion-panel-header>
           <mat-panel-title>
             <span class="domain-title__num">Domain {{domain.idx}}:</span>
